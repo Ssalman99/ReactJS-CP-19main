@@ -1,0 +1,125 @@
+/* Write your CSS here */
+
+.app-container {
+  background-image: linear-gradient(to right, #ffffff 0.2%, #cffcf1 20%);
+  height: 150vh;
+  background-size: cover;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  margin-top: 5%;
+  text-align: center;
+  color: #0f172a;
+}
+
+.time-container {
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+}
+
+.Running-time {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  width: 800px;
+  height: 600px;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.running-container {
+  background-color: #defafe;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+.time {
+  font-weight: bold;
+  font-size: 40px;
+  color: #00d9f5;
+  margin-bottom: 0px;
+}
+.time-pera {
+  color: #0f172a;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+.button-container {
+  width: 50%;
+}
+
+.button-set {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-img {
+  width: 15%;
+  margin-top: 14%;
+}
+
+.button-img1 {
+  width: 15%;
+  margin-top: 18%;
+}
+
+.button {
+  border-style: none;
+  background-color: transparent;
+  color: #0f172a;
+  display: flex;
+  flex-direction: row;
+}
+
+.start {
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 5%;
+}
+
+.pera {
+  margin-left: 15%;
+  font-size: 20px;
+  color: #1e293b;
+  font-weight: bold;
+}
+.timmer-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 09%;
+}
+
+.buttons {
+  border-style: none;
+  background-color: transparent;
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.count {
+  background-color: #00d9f5;
+  text-align: center;
+  width: 25%;
+  padding: 10px;
+  margin: 10px;
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 5px;
+}
